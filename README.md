@@ -1,7 +1,5 @@
 # Ansible Role: Jenkins CI
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-jenkins.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-jenkins)
-
 Installs Jenkins CI on RHEL/CentOS and Debian/Ubuntu servers.
 
 ## Requirements
@@ -85,20 +83,4 @@ Changes made to the Jenkins init script; the default set of changes set the conf
 
 ## Dependencies
 
-  - geerlingguy.java
-
-## Example Playbook
-
-    - hosts: ci-server
-      vars:
-        jenkins_hostname: jenkins.example.com
-      roles:
-        - geerlingguy.jenkins
-
-## License
-
-MIT (Expat) / BSD
-
-## Author Information
-
-This role was created in 2014 by [Jeff Geerling](http://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+  -java
